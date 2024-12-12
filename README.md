@@ -1,0 +1,1 @@
+This repository demonstrates a common error in MongoDB aggregation pipelines involving the `$lookup` and `$unwind` stages.  Specifically, the pipeline fails when no matching documents are found in the `$lookup` stage.  The solution showcases how to handle this scenario gracefully using the `$ifNull` operator.
